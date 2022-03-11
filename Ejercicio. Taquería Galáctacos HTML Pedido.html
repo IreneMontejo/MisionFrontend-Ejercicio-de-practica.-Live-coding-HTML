@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pedidos: Taquería "Galáctacos"</title>
+</head>
+<body>
+    <h1> Realiza tu pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Ingresa tu nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br> <br>
+        <label for="Mesa">Ingresa tu número de mesa:</label>
+        <input type="number" id="Mesa" name="Mesa" placeholder="4">
+        
+        <p>¿Para comer aquí o para llevar?</p>
+        <input type="radio" id="Aquí" name="aquíollevar" value="Aquí">
+        <label for="Aquí">Aquí</label><br>
+        <input type="radio" id="Para llevar" name="aquíollevar" value="Para llevar">
+        <label for="Para llevar">Para llevar</label><br>
+
+        <p>Elige los sabores de tus tacos:</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio (Bistec)">
+        <label for="mercurio">Mercurio (Bistec)</label>
+        <input type="number"id="mercuriocuantos"name="mercuriocuantos"><br>
+        <input type="checkbox" id="venus" name="venus" value="Venus (Suadero)">
+        <label for="venus">Venus (Suadero)</label>
+        <input type="number"id="venuscuantos"name="venuscuantos"><br>
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra (Tripa)">
+        <label for="tierra">Tierra (Tripa)</label>
+        <input type="number"id="tierracuantos"name="tierracuantos"><br>
+        <input type="checkbox" id="marte" name="marte" value="Marte (Pastor)">
+        <label for="marte">Marte (Pastor)</label>
+        <input type="number"id="martecuantos"name="martecuantos"><br>
+        <input type="checkbox" id="júpiter" name="júpiter" value="Júpiter (Longaniza)">
+        <label for="júpiter">Júpiter (Longaniza)</label>
+        <input type="number"id="jupicuantos"name="jupicuantos"><br>
+        <input type="checkbox" id="urano" name="urano" value="Urano (Chorizo)">
+        <label for="urano">Urano (Chorizo)</label>
+        <input type="number"id="uranocuantos"name="uranocuantos"><br>
+        <input type="checkbox" id="neptuno" name="neptuno" value="Neptuno (Alambre) ">
+        <label for="neptuno">Neptuno (Alambre) </label>
+        <input type="number"id="neptcuantos"name="neptcuantos"><br>
+        <input type="checkbox" id="plutón" name="plutón" value="Plutón (Chorizo vegano con papas)">
+        <label for="plutón">Plutón (Chorizo vegano con papas)</label>
+        <input type="number"id="plucuantos"name="plucuantos"><br>
+
+
+        <p>Elige tus bebidas:</p>  
+        <select id="refresco" name="refresco">
+            <option value="coca">Coca-Cola</option>
+            <option value="sprite">Sprite</option>
+            <option value="Fanta">Fanta</option>
+            <option value="sidral">Sidral Mundet</option>
+        </select>  
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    </form>
+
+</body>
+
+
